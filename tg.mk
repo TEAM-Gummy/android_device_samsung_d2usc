@@ -1,8 +1,5 @@
 $(call inherit-product, device/samsung/d2usc/full_d2usc.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/Gummy/config/cdma.mk)
-
 # Enhanced NFC
 $(call inherit-product, vendor/Gummy/config/nfc_enhanced.mk)
 
